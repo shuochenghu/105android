@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //3. Create a list of word objects
+        //3. Create a list_item of word objects
         ArrayList<Word> words = new ArrayList<Word>();
 
         words.add(new Word("one", "lutti"));
